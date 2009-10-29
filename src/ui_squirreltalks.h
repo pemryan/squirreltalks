@@ -1,8 +1,8 @@
 /********************************************************************************
 ** Form generated from reading ui file 'squirreltalks.ui'
 **
-** Created: Thu Jun 4 14:04:48 2009
-**      by: Qt User Interface Compiler version 4.5.1
+** Created: Thu Oct 29 09:28:18 2009
+**      by: Qt User Interface Compiler version 4.5.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling ui file!
 ********************************************************************************/
@@ -29,7 +29,6 @@ class Ui_SquirrelTalksClass
 {
 public:
     QWidget *centralwidget;
-    QFrame *frame;
     QFrame *frame_2;
     QPushButton *pushButton;
     QLineEdit *lineEdit;
@@ -40,29 +39,24 @@ public:
     {
         if (SquirrelTalksClass->objectName().isEmpty())
             SquirrelTalksClass->setObjectName(QString::fromUtf8("SquirrelTalksClass"));
-        SquirrelTalksClass->resize(854, 600);
+        SquirrelTalksClass->resize(792, 527);
         centralwidget = new QWidget(SquirrelTalksClass);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        frame = new QFrame(centralwidget);
-        frame->setObjectName(QString::fromUtf8("frame"));
-        frame->setGeometry(QRect(30, 70, 281, 421));
-        frame->setFrameShape(QFrame::StyledPanel);
-        frame->setFrameShadow(QFrame::Raised);
         frame_2 = new QFrame(centralwidget);
         frame_2->setObjectName(QString::fromUtf8("frame_2"));
-        frame_2->setGeometry(QRect(330, 70, 281, 421));
+        frame_2->setGeometry(QRect(80, 100, 491, 371));
         frame_2->setFrameShape(QFrame::StyledPanel);
         frame_2->setFrameShadow(QFrame::Raised);
         pushButton = new QPushButton(centralwidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(650, 480, 133, 33));
+        pushButton->setGeometry(QRect(620, 100, 133, 33));
         lineEdit = new QLineEdit(centralwidget);
         lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
-        lineEdit->setGeometry(QRect(670, 60, 113, 32));
+        lineEdit->setGeometry(QRect(620, 60, 113, 32));
         SquirrelTalksClass->setCentralWidget(centralwidget);
         menubar = new QMenuBar(SquirrelTalksClass);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 854, 30));
+        menubar->setGeometry(QRect(0, 0, 792, 26));
         SquirrelTalksClass->setMenuBar(menubar);
         statusbar = new QStatusBar(SquirrelTalksClass);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
