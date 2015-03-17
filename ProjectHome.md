@@ -1,0 +1,1 @@
+Squirrels are elegant, peaceful and clever animals but pity that they cannot use keyboards. This project are set to help squirrels communicate with each other via web easily. You may be interested in this project if you are lucky to be a Squirrel.
